@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+<body>
+
+  <h1>Contact</h1>
+
+  <p>Amanda Goldstein</p>
+
+  <address>
+    900 South Crouse Avenue<br>
+    Syracuse, NY 13244
+  </address>
+
+  <p><a href="mailto:agolds12@syr.edu">agolds12@syr.edu</a></p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/amandasgoldstein/" target="_blank">
+      My LinkedIn Profile
+      <img src="../images/LI-In-Bug.png" alt="LinkedIn logo" width="60" height="51">
+    </a>
+  </p>
+
+  <iframe
+    src="https://maps.google.com/maps?q=900%20South%20Crouse%20Ave%20Syracuse%20NY%2013244&amp;output=embed"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <h2>Send Me a Message</h2>
+
+  <form action="https://formspree.io/f/mwlpkkrw" method="post">
+
+    <p>
+      <label for="fname">Your name: </label>
+      <input type="text" id="fname" name="fname">
+    </p>
+
+    <p>
+      <label for="email">Your email: </label>
+      <input type="text" id="email" name="email">
+    </p>
+
+    <p>
+      <label for="reason">What are you reaching out about? </label>
+      <select name="reason" id="reason">
+        <option value="internship">Internship opportunity</option>
+        <option value="fulltime">Full-time opportunity</option>
+        <option value="freelance">Freelance or project work</option>
+        <option value="networking">Networking</option>
+        <option value="other">Something else</option>
+      </select>
+    </p>
+
+    <p>How would you like me to get back to you?</p>
+    <p>
+      <input type="radio" id="byemail" name="contactmethod" value="email">
+      <label for="byemail">Email</label><br>
+      <input type="radio" id="byphone" name="contactmethod" value="phone">
+      <label for="byphone">Phone</label><br>
+      <input type="radio" id="bylinkedin" name="contactmethod" value="linkedin">
+      <label for="bylinkedin">LinkedIn message</label>
+    </p>
+
+    <p>
+      <label for="comments">Your message: </label><br>
+      <textarea id="comments" name="comments" rows="6" cols="50"></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Send Message">
+    </p>
+
+  </form>
+
+</body>
+</html>
