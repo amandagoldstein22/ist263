@@ -1,3 +1,10 @@
+
+.col p img {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 6px;
+}
 body {
   background-color: #F7F3EA;
   color: #1F2A37;
