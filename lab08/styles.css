@@ -60,3 +60,41 @@ footer p {
   width: 100%;
   max-width: 100%;
 }
+
+form label[for="fname"],
+form label[for="email"],
+form label[for="reason"],
+form label[for="comments"] {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+form label[for="comments"] + br {
+  display: none;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #14365D;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+form input[type="submit"] {
+  background-color: #14365D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #C8553D;
+}
