@@ -1,0 +1,107 @@
+
+.col p img {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+body {
+  background-color: #F7F3EA;
+  color: #1F2A37;
+}
+
+a {
+  color: #C8553D;
+}
+
+h1, h2, h3 {
+  color: #14365D;
+}
+
+nav {
+  background-color: #14365D;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  background-color: #C8553D;
+}
+
+footer {
+  background-color: #EAE3D2;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.quote {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 1.5em;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.col {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.col iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+form label[for="fname"],
+form label[for="email"],
+form label[for="reason"],
+form label[for="comments"] {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+form label[for="comments"] + br {
+  display: none;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #14365D;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+form input[type="submit"] {
+  background-color: #14365D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #C8553D;
+}
