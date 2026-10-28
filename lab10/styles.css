@@ -128,6 +128,12 @@ form input[type="submit"]:hover {
   flex-basis: 50%;
 }
 
+iframe.col {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+}
+
 .banner {
   max-width: 100%;
   height: auto;
